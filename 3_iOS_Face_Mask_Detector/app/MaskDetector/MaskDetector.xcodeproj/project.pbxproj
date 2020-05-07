@@ -15,6 +15,7 @@
 		9948C6042464B9210056B344 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9948C6022464B9210056B344 /* LaunchScreen.storyboard */; };
 		9948C60F2464B9210056B344 /* MaskDetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9948C60E2464B9210056B344 /* MaskDetectorTests.swift */; };
 		9948C61A2464B9210056B344 /* MaskDetectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9948C6192464B9210056B344 /* MaskDetectorUITests.swift */; };
+		9948C6282464B99C0056B344 /* mask_detector.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9948C6272464B99B0056B344 /* mask_detector.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		9948C6152464B9210056B344 /* MaskDetectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaskDetectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9948C6192464B9210056B344 /* MaskDetectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskDetectorUITests.swift; sourceTree = "<group>"; };
 		9948C61B2464B9210056B344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9948C6272464B99B0056B344 /* mask_detector.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = mask_detector.mlmodel; path = ../../Keras_Model/mask_detector.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		9948C5EB2464B91E0056B344 = {
 			isa = PBXGroup;
 			children = (
+				9948C6272464B99B0056B344 /* mask_detector.mlmodel */,
 				9948C5F62464B91E0056B344 /* MaskDetector */,
 				9948C60D2464B9210056B344 /* MaskDetectorTests */,
 				9948C6182464B9210056B344 /* MaskDetectorUITests */,
@@ -269,6 +272,7 @@
 			files = (
 				9948C5F82464B91E0056B344 /* AppDelegate.swift in Sources */,
 				9948C5FA2464B91E0056B344 /* SceneDelegate.swift in Sources */,
+				9948C6282464B99C0056B344 /* mask_detector.mlmodel in Sources */,
 				9948C5FC2464B91E0056B344 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
