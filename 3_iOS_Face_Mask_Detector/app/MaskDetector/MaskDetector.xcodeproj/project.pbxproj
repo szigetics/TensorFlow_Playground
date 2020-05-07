@@ -16,6 +16,7 @@
 		9948C60F2464B9210056B344 /* MaskDetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9948C60E2464B9210056B344 /* MaskDetectorTests.swift */; };
 		9948C61A2464B9210056B344 /* MaskDetectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9948C6192464B9210056B344 /* MaskDetectorUITests.swift */; };
 		9948C6282464B99C0056B344 /* mask_detector.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9948C6272464B99B0056B344 /* mask_detector.mlmodel */; };
+		9948C62A2464B9D90056B344 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9948C6292464B9D90056B344 /* MyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		9948C6192464B9210056B344 /* MaskDetectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskDetectorUITests.swift; sourceTree = "<group>"; };
 		9948C61B2464B9210056B344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9948C6272464B99B0056B344 /* mask_detector.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = mask_detector.mlmodel; path = ../../Keras_Model/mask_detector.mlmodel; sourceTree = "<group>"; };
+		9948C6292464B9D90056B344 /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				9948C6022464B9210056B344 /* LaunchScreen.storyboard */,
 				9948C6052464B9210056B344 /* Info.plist */,
 				9948C5FF2464B9210056B344 /* Preview Content */,
+				9948C6292464B9D90056B344 /* MyViewController.swift */,
 			);
 			path = MaskDetector;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				9948C5F82464B91E0056B344 /* AppDelegate.swift in Sources */,
 				9948C5FA2464B91E0056B344 /* SceneDelegate.swift in Sources */,
 				9948C6282464B99C0056B344 /* mask_detector.mlmodel in Sources */,
+				9948C62A2464B9D90056B344 /* MyViewController.swift in Sources */,
 				9948C5FC2464B91E0056B344 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -440,8 +444,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"MaskDetector/Preview Content\"";
+				DEVELOPMENT_TEAM = 6K734MX2JW;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MaskDetector/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,8 +465,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"MaskDetector/Preview Content\"";
+				DEVELOPMENT_TEAM = 6K734MX2JW;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MaskDetector/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
