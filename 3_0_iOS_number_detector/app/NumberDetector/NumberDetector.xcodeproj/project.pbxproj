@@ -15,6 +15,8 @@
 		9948C5C42464A29C0056B344 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9948C5C22464A29C0056B344 /* LaunchScreen.storyboard */; };
 		9948C5CF2464A29C0056B344 /* NumberDetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9948C5CE2464A29C0056B344 /* NumberDetectorTests.swift */; };
 		9948C5DA2464A29C0056B344 /* NumberDetectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9948C5D92464A29C0056B344 /* NumberDetectorUITests.swift */; };
+		9948C5E82464A5400056B344 /* numbers_model.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9948C5E72464A5400056B344 /* numbers_model.mlmodel */; };
+		9948C5EA2464A90D0056B344 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9948C5E92464A90D0056B344 /* MyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		9948C5D52464A29C0056B344 /* NumberDetectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumberDetectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9948C5D92464A29C0056B344 /* NumberDetectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberDetectorUITests.swift; sourceTree = "<group>"; };
 		9948C5DB2464A29C0056B344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9948C5E72464A5400056B344 /* numbers_model.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = numbers_model.mlmodel; path = ../../Keras_Model/numbers_model.mlmodel; sourceTree = "<group>"; };
+		9948C5E92464A90D0056B344 /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		9948C5AB2464A2970056B344 = {
 			isa = PBXGroup;
 			children = (
+				9948C5E72464A5400056B344 /* numbers_model.mlmodel */,
 				9948C5B62464A2970056B344 /* NumberDetector */,
 				9948C5CD2464A29C0056B344 /* NumberDetectorTests */,
 				9948C5D82464A29C0056B344 /* NumberDetectorUITests */,
@@ -106,6 +111,7 @@
 				9948C5C22464A29C0056B344 /* LaunchScreen.storyboard */,
 				9948C5C52464A29C0056B344 /* Info.plist */,
 				9948C5BF2464A29C0056B344 /* Preview Content */,
+				9948C5E92464A90D0056B344 /* MyViewController.swift */,
 			);
 			path = NumberDetector;
 			sourceTree = "<group>";
@@ -268,7 +274,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9948C5B82464A2970056B344 /* AppDelegate.swift in Sources */,
+				9948C5E82464A5400056B344 /* numbers_model.mlmodel in Sources */,
 				9948C5BA2464A2970056B344 /* SceneDelegate.swift in Sources */,
+				9948C5EA2464A90D0056B344 /* MyViewController.swift in Sources */,
 				9948C5BC2464A2970056B344 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,8 +444,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"NumberDetector/Preview Content\"";
+				DEVELOPMENT_TEAM = 6K734MX2JW;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = NumberDetector/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,8 +465,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"NumberDetector/Preview Content\"";
+				DEVELOPMENT_TEAM = 6K734MX2JW;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = NumberDetector/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
