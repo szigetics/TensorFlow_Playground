@@ -5,4 +5,4 @@ source bin/activate
 pip3 install -r requirements.txt
 
 python3 train_mask_detector.py -d dataset
-python3 coremlconverter.py
+python3 coremlconverter.py -m mask_detector.model
